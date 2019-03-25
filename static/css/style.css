@@ -1,4 +1,42 @@
 
+.font-1 {
+    font-family: 'Frijole', cursive;
+    font-size: 150px;
+}
+
+.font-2 {
+    font-family: 'Creepster', cursive;
+    font-size: 150px;
+}
+
+.font-3 {
+    font-family: 'Eater', cursive;
+    font-size: 150px;
+}
+
+.font-4 {
+    font-family: 'Barrio', cursive;
+    font-size: 150px;
+}
+
+.font-5 {
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 150px;
+}
+
+.font-6 {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 190px;
+}
+
+.font-bg {
+    background-color: #fff;
+    height: auto;
+    margin-top: 15px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: normal;
+}
 
 .main-bg {
     background-image: url(/static/img/earth.jpg);
