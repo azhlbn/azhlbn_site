@@ -8,3 +8,6 @@ def main(request):
 def fonts(request):
     return render(request, 'main/fonts.html')
 
+def tg_logo(request):
+    return render(request, 'main/tg_logo.html')
+

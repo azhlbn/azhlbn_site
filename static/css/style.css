@@ -1,4 +1,15 @@
 
+.tg-image-block {
+    padding: 30px;
+    background-color: #fff;
+}
+
+.tg-image {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
 .font-1 {
     font-family: 'Frijole', cursive;
     font-size: 150px;
