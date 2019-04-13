@@ -11,3 +11,5 @@ def fonts(request):
 def tg_logo(request):
     return render(request, 'main/tg_logo.html')
 
+def shop(request):
+    return render(request, 'main/shop.html')
