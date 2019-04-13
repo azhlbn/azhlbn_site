@@ -29,17 +29,17 @@
             <a class="dropdown-toggle menu-item menu-title" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                aria-expanded="false">projects</a>
             <div class="dropdown-menu">
-                <a class="menu-item" href="#"><ol>Days between dates</ol></a>
-                <a class="menu-item" href="{% url 'shop' %}"><ol>Shop</ol></a>
-                <a class="menu-item" href="{% url 'tg_logo' %}"><ol>TG logo to Makarov</ol></a>
+              <a class="menu-item" href="{% url 'shop' %}"><ol>Shop</ol></a>
+              <a class="menu-item" href="#"><ol>Days between dates</ol></a>
+              <a class="menu-item" href="{% url 'tg_logo' %}"><ol>TG logo to Makarov</ol></a>
             </div>
         </li>
         <li class="nav-item">
             <a class="menu-item menu-title" href="{% url 'fonts' %}">fonts</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="menu-item menu-title" href="{% url 'fonts' %}">new</a>
-        </li>
+        </li> -->
     </ul>
 </div>
 {% block content %}

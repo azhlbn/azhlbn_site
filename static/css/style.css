@@ -1,3 +1,6 @@
+body {
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 
 .shop-page {
   height: auto;
@@ -15,8 +18,17 @@
   height: 45px;
 }
 
+.main-page {
+  height: auto;
+  background-color: #3C3F41;
+  color: #bbb;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif !important;
+}
+
 .tg-image-block {
-    padding: 30px;
     background-color: #fff;
 }
 
@@ -28,41 +40,47 @@
 
 .font-1 {
     font-family: 'Frijole', cursive;
-    font-size: 150px;
+    font-size: 50px;
 }
 
 .font-2 {
     font-family: 'Creepster', cursive;
-    font-size: 150px;
+    font-size: 50px;
 }
 
 .font-3 {
     font-family: 'Eater', cursive;
-    font-size: 150px;
+    font-size: 50px;
 }
 
 .font-4 {
     font-family: 'Barrio', cursive;
-    font-size: 150px;
+    font-size: 50px;
 }
 
 .font-5 {
     font-family: 'Caesar Dressing', cursive;
-    font-size: 150px;
+    font-size: 50px;
 }
 
 .font-6 {
     font-family: 'Jolly Lodger', cursive;
-    font-size: 190px;
+    font-size: 100px;
+}
+
+.font-description {
+  padding-top: 15px;
+  height: 50px;
+  background-color: #f2f2f2;
 }
 
 .font-bg {
     background-color: #fff;
     height: auto;
     /* margin-top: 15px; */
-    padding-top: 30px;
     text-align: center;
     line-height: normal;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .main-bg {
