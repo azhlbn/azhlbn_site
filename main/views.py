@@ -13,3 +13,6 @@ def tg_logo(request):
 
 def shop(request):
     return render(request, 'main/shop.html')
+
+def btw_dates(request):
+    return render(request, 'main/btw_dates.html')

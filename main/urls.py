@@ -6,4 +6,5 @@ urlpatterns = [
     path('fonts', fonts, name='fonts'),
     path('tg-logo', tg_logo, name='tg_logo'),
     path('shop', shop, name='shop'),
+    path('btw-dates', btw_dates, name='btw-dates'),
 ]

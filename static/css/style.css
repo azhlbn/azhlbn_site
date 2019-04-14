@@ -1,15 +1,16 @@
 body {
   /* font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-size: 18px;
 }
 
 .shop-page {
   height: auto;
-  background-color: #fff;
+  background-color: rgb(186, 189, 191);
+  color: #3C3F41;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 18px;
-  color: #3C3F41;
 }
 
 .menu {
@@ -18,17 +19,15 @@ body {
 
 .main-page {
   height: auto;
-  background-color: #6c7275;
-  color: #bbb;
-  padding: 25px;
+  background-color: rgb(186, 189, 191);
+  color: #3C3F41;
+  padding: 15px;
   width: 100%;
   text-align: center;
-  color: #d4d7d9;
-  /* font-weight: 500; */
 }
 
 .tg-image-block {
-    background-color: #fff;
+    background-color: rgb(186, 189, 191);
 }
 
 .tg-image {
@@ -70,11 +69,15 @@ body {
 .font-description {
   padding-top: 15px;
   height: 50px;
+}
+
+.light-bg {
   background-color: #f2f2f2;
 }
 
 .font-bg {
-    background-color: #fff;
+    background-color: rgb(186, 189, 191);
+    color: #3C3F41;
     height: auto;
     /* margin-top: 15px; */
     text-align: center;
