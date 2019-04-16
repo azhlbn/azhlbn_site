@@ -8,7 +8,7 @@ Places to go
             {% for place in places %}
                 <div class="insta-brick" onclick="location.href='{% url 'place_details' slug=place.slug %}'">
                     <div class="place-title">{{ place.title }}</div>
-                    <img class='place-img' src="{{ place.img.url }}" alt="">
+                    <img class='place-img' src="{{ place.img_url }}" alt="">
                     <div class="insta-brick-caption">
                         <span class="insta-brick-info">{{ place.text|safe }}</span>
                     </div>

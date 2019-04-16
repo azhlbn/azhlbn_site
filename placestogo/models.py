@@ -9,7 +9,8 @@ class Place(models.Model):
     slug = models.SlugField(verbose_name='URL', default=None)
     text = RichTextField(default=None, verbose_name='Описание')
     date = models.DateTimeField(auto_now_add=True, verbose_name='Дата')
-    img = models.ImageField()
+    # img = models.ImageField()
+    img_url = models.URLField(default='https://img4.goodfon.ru/original/1920x1408/5/61/norway-mountains-valley-peaks-snow-house-meadow-grass-trees.jpg', verbose_name='URL изображения')
 
     def __str__(self):
         return self.title
