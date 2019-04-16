@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}
+Places to go
+{% endblock %}
+{% block content %}
+    <div class="row bg-white">
+        <div class="placestogo-container">
+            {% for place in places %}
+                <div class="insta-brick">
+                    <div class="place-title">{{ place.title }}</div>
+                    <img class='place-img' src="{{ place.img.url }}" alt="">
+                    <div class="insta-brick-caption">
+                        <span class="insta-brick-info">{{ place.text|safe }}</span>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

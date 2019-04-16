@@ -8,11 +8,14 @@ def main(request):
 def fonts(request):
     return render(request, 'main/fonts.html')
 
+
 def tg_logo(request):
     return render(request, 'main/tg_logo.html')
 
+
 def shop(request):
     return render(request, 'main/shop.html')
+
 
 def btw_dates(request):
     return render(request, 'main/btw_dates.html')

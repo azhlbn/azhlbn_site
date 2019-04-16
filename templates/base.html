@@ -15,7 +15,9 @@
     <link href="https://fonts.googleapis.com/css?family=Barrio|Caesar+Dressing|Creepster|Eater|Frijole|Jolly+Lodger" rel="stylesheet">
 </head>
 <body>
-<div class="top-line"></div>
+<a href="{% url 'admin:index' %}" target="_blank">
+    <div class="top-line"></div>
+</a>
 <!-- <div class="top-line-small-blue"></div> -->
 {#<div class="top-line-small-darkblue"></div>#}
 {#<div class="top-line-small-green"></div>#}
@@ -35,6 +37,9 @@
               <a class="menu-item" href="{% url 'tg_logo' %}"><ol>TG logo to Makarov</ol></a>
             </div>
         </li>
+        <li class="nav-item">
+            <a class="menu-item menu-title" href="{% url 'placestogo' %}">Places to go</a>
+        </li>
         <!-- <li class="nav-item">
             <a class="menu-item menu-title" href="{% url 'fonts' %}">new</a>
         </li> -->
@@ -42,6 +47,11 @@
 </div>
 {% block content %}
 {% endblock %}
+<div class="bottom-line">
+    <div class="bottom-line-block text-right">
+        powered by azhlbn
+    </div>
+</div>
 <!-- SCRIPTS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
