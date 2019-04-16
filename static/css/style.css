@@ -1,6 +1,19 @@
 
 /* --- */
 
+.nav-item-mobile {
+    margin: 10px 10px 0 15px !important;
+}
+
+.nav-mobile {
+    list-style: none;
+    padding-top: 10px !important;
+}
+
+.nav-mobile a {
+    color: #bbb;
+}
+
 .place-date {
     font-size: 12px;
     padding: 5px 25px 5px 5px;
@@ -46,7 +59,7 @@
 .insta-brick {
     /*display: inline-block;*/
     /*overflow: hidden;*/
-    width: 400px;
+    max-width: 400px;
     margin: 15px 15px 15px 15px;
     opacity: .99;
     overflow: hidden;
@@ -160,11 +173,11 @@
 .placestogo-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: left;
+    justify-content: center;
     height: auto;
     color: #3C3F41;
     padding: 15px;
-    width: 100%;
+    /*width: 100%;*/
     text-align: center;
     max-width: 1400px;
     margin-left: auto;
@@ -173,8 +186,8 @@
 
 .place-img {
     object-fit: cover;
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    /*height: 400px;*/
     /*width: 100%;*/
 }
 
@@ -385,4 +398,20 @@ body {
 .menu-item:hover {
     color: #ffffff;
     text-decoration: none;
+}
+
+@media (min-width: 550px) {
+
+    .lower550 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .upper550 {
+        display: none;
+    }
+
 }

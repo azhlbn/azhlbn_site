@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% bootstrap_css %}
     {% bootstrap_javascript %}
     {% bootstrap_messages %}
@@ -16,13 +17,13 @@
 </head>
 <body>
 <a href="{% url 'admin:index' %}" target="_blank">
-    <div class="top-line"></div>
+    <div class="top-line upper550"></div>
 </a>
 <!-- <div class="top-line-small-blue"></div> -->
 {#<div class="top-line-small-darkblue"></div>#}
 {#<div class="top-line-small-green"></div>#}
 {#<div class="top-line-small-red"></div>#}
-<div class="container base-text">
+<div class="container base-text upper550">
     <ul class="nav nav-pills menu">
         <li class="nav-item">
             <a class="menu-item menu-title" href="{% url 'main' %}">start</a>
@@ -44,6 +45,42 @@
             <a class="menu-item menu-title" href="{% url 'fonts' %}">new</a>
         </li> -->
     </ul>
+</div>
+<div class="pos-f-t lower550">
+  <div class="collapse" id="navbarToggleExternalContent">
+      <div class="p-4 nav-mobile">
+          <li class="nav-item nav-item-mobile">
+              <a class="menu-item menu-title" href="{% url 'main' %}">start</a>
+          </li>
+          <li class="nav-item dropdown nav-item-mobile">
+              <a class="dropdown-toggle menu-item menu-title" data-toggle="dropdown" href="#" role="button"
+                 aria-haspopup="true"
+                 aria-expanded="false">projects</a>
+              <div class="dropdown-menu">
+                  <a class="menu-item" href="{% url 'shop' %}">
+                      <ol>Shop</ol>
+                  </a>
+                  <a class="menu-item" href="{% url 'fonts' %}">
+                      <ol>Fonts Collection</ol>
+                  </a>
+                  <a class="menu-item" href="{% url 'btw-dates' %}">
+                      <ol>Days between dates</ol>
+                  </a>
+                  <a class="menu-item" href="{% url 'tg_logo' %}">
+                      <ol>TG logo to Makarov</ol>
+                  </a>
+              </div>
+          </li>
+          <li class="nav-item nav-item-mobile">
+              <a class="menu-item menu-title" href="{% url 'placestogo' %}">Places to go</a>
+          </li>
+      </div>
+  </div>
+  <nav class="navbar navbar-dark" style="background-color: #3c3f41;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
 </div>
 {% block content %}
 {% endblock %}
