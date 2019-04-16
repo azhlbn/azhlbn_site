@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+Place description
+{% endblock %}
+{% block content %}
+    <div class="row bg-white">
+        <div class="container place-det-block">
+            <div class="place-det-title">{{ place.title }}</div>
+            <img src="{{ place.img.url }}" alt="">
+            <div class="place-txt">{{ place.text|safe }}</div>
+        </div>
+    </div>
+{% endblock %}

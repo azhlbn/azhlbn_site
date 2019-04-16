@@ -11,3 +11,11 @@ def placestogo(request):
     }
 
     return render(request, 'placestogo/placestogo.html', context)
+
+
+def place_details(request, slug):
+    place = Place.objects.get(slug=slug)
+    context = {
+        'place': place,
+    }
+    return render(request, 'placestogo/place-details.html', context)
