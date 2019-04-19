@@ -86,7 +86,7 @@
     transition-property: top, opacity;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    margin-top: 48px;
+    margin-top: 35px;
 }
 
 .insta-brick img {
@@ -103,7 +103,7 @@
 
 .insta-brick .insta-brick-caption {
     width: 100%;
-    padding: 80px;
+    padding: 70px;
     color: #fff;
     position: absolute;
     top: 15%;
