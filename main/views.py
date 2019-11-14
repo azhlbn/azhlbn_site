@@ -19,3 +19,7 @@ def shop(request):
 
 def btw_dates(request):
     return render(request, 'main/btw_dates.html')
+
+
+def operations_with_matrix(request):
+    return render(request, 'main/operations_with_matrix.html')

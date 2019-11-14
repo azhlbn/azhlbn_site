@@ -37,11 +37,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\azhlbn\azhlbn_site\azhlbn_env"
+VIRTUAL_ENV="/Users/azhlbn/Documents/azhlbn_site/azhlbn_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
-PATH="$VIRTUAL_ENV/Scripts:$PATH"
+PATH="$VIRTUAL_ENV/bin:$PATH"
 export PATH
 
 # unset PYTHONHOME if set

@@ -1,4 +1,4 @@
-#!c:\azhlbn\azhlbn_site\azhlbn_env\scripts\python.exe
+#!/Users/azhlbn/Documents/azhlbn_site/azhlbn_env/bin/python
 from django.core import management
 
 if __name__ == "__main__":
